@@ -25,7 +25,7 @@ const Navbar = () => {
             <AvatarFallback className="text-slate-500">BT</AvatarFallback>
           </Avatar>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="mr-1">
+        <DropdownMenuContent className="mr-3">
           <DropdownMenuLabel>My Account</DropdownMenuLabel>
           <DropdownMenuSeparator />
           <DropdownMenuItem>
