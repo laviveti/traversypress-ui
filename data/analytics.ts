@@ -1,4 +1,4 @@
-import { AnalyticsItem } from "@/types/analytics";
+import { AnalyticsItem } from "@/type/analytics";
 
 const data: AnalyticsItem[] = [
   {

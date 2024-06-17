@@ -1,4 +1,4 @@
-import { Post } from "@/types/posts";
+import { Post } from "@/type/posts";
 
 const posts: Post[] = [
   {

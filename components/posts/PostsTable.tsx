@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/table";
 import posts from "@/data/posts";
 import Link from "next/link";
-import { Post } from "@/types/posts";
+import { Post } from "@/type/posts";
 import { FC } from "react";
 
 interface PostsTableProps {
@@ -27,7 +27,7 @@ const PostsTable: FC<PostsTableProps> = ({ limit, title }) => {
   const filteredPosts = limit ? sortedPosts.slice(0, limit) : sortedPosts;
 
   return (
-    <div className="">
+    <div className="mt-5">
       <h3 className=" text-2xl mb-4 font-semibold">
         {title ? title : "Posts"}
       </h3>
