@@ -30,7 +30,7 @@ const AnalyticsChart = () => {
             <ResponsiveContainer>
               <LineChart width={1100} height={300} data={data}>
                 <Line type={"monotone"} dataKey={"uv"} stroke="#8884d8" />
-                <CartesianGrid stroke="#ccc" />
+                <CartesianGrid stroke="#d4d4d8" />
                 <XAxis dataKey={"name"} />
                 <YAxis />
               </LineChart>
